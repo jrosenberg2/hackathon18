@@ -1,0 +1,131 @@
+/*!
+ * Start Bootstrap - Shop Item (https://startbootstrap.com/template-overviews/shop-item)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-item/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0))), url("../../img/Background1.jpg");
+    background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../../img/Background1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-heading {
+  color: inherit;
+}
+
+.site-heading {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: 'Raleway';
+}
+
+.site-heading .site-heading-upper {
+  display: block;
+  font-size: 5rem;
+  font-weight: 800;
+  color: black;
+}
+
+.site-heading .site-heading-lower {
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 4rem;
+}
+
+.intro {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .intro .intro-img {
+    width: 75%;
+  }
+    
+ .intro .intro-text {
+    left: 0;
+    width: 60%;
+    margin-top: 3rem;
+    position: absolute;
+  }
+  .intro .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro .intro-text {
+    width: 45%;
+  }
+}
+
+.page-section {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0);
+}
+    
+.bg-primary {
+  background-color: #fff !important;
+}
+
+.centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;   
+}
+
+#mainNav {
+  background-color: rgba(185, 0, 15, 0.85);
+  font-family: 'Raleway';
+}
+
+#mainNav .navbar-brand {
+  color: #FFF;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0);
+  font-weight: 800;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+  color: #FFF;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: rgba(255, 255, 255, 0.4);
+  }
+  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+    color: #fff;
+  }
